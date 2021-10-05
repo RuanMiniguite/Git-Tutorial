@@ -15,16 +15,16 @@
 
 **Instalação Git** 
 
-######Windons
+###### Windons
 ```bash
 https://git-scm.com/download/win
 ```
 
-######macOS
+###### macOS
 ```bash
 https://git-scm.com/download/mac
 ```
-######Linux
+###### Linux
 ```bash
 https://git-scm.com/download/linux
 ```
