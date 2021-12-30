@@ -105,6 +105,18 @@ git log // todos os commits
 git log --oneline // exibe log com hash e título do commit
 ```
 
+**Editar ultimo commits**
+```bash
+git commit --amend
+```
+
+**Editar commits antigos**
+```bash
+git rebase -i HEAD~3
+```
+<h5>Mostra a lista dos 3 últimos commit antes do push</h5>
+
+
 <br>
 
 ---
