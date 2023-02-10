@@ -68,6 +68,7 @@ git log <SHA>
 git show <SHA>
 ```
 
+<br>
 
 ## Histórico de todas as branch
 ```bash
