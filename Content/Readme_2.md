@@ -21,7 +21,7 @@
 
 ## Baixa um projeto já existente
 ```bash
- git clone <URL-do-projeto>
+git clone <URL-do-projeto>
 ```
 
 <br>
