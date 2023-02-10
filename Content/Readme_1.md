@@ -9,7 +9,10 @@
 <details>
   <summary>Index</summary>
   <ol>
-    <li><a href="#instalação">About The Project</a></li>
+    <li><a href="#instalação">Instalação</a></li>
+    <li><a href="#configuração-basica">Configuração basica</a></li>
+    <li><a href="#configuração-cor">Configuração cor</a></li>
+    <li><a href="#configuração-de-editor-padão">Configuração de editor padão</a></li>
   </ol>
 </details>
 
@@ -22,6 +25,7 @@
 - [**MacOS**](https://git-scm.com/download/mac)
 - [**Linux**](https://git-scm.com/download/linux)
 
+<br>
 
 ## Configuração basica
 ```bash
@@ -32,10 +36,14 @@ git config --global user.name "<NomeCompleto>"
 git config --global user.email "<E-mail>"
 ```
 
+<br>
+
 ## Configuração cor
 ```bash
 git config --global color.ui auto
 ```
+
+<br>
 
 ## Configuração de editor padão
 ###### Atom
