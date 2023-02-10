@@ -12,6 +12,7 @@
 
 ---
 
+<!-- ============== GUIA ============== -->
 ## Guia
 
 - [Instalação/Configuração](Content/Readme_1.md)
@@ -21,6 +22,13 @@
 - [Tagging/Branching/Merging](Content/Readme_5.md)
 - [Desfazer alterações](Content/Readme_6.md)
 
+<br>
+
+<!-- ============== LICENSE ============== -->
+## Mensagem para commit
+
+- [Emoji](https://github.com/RuanMiniguite/Commit-Message)
+- [Text](https://github.com/RuanMiniguite/Commit-Message/blob/main/Readme_2.md)
 
 
 <!-- ============== LICENSE ============== -->
@@ -30,14 +38,12 @@ Copyright © 2023 [Ruan Miniguite](https://github.com/RuanMiniguite).<br />
 This project is [MIT][GitHub License-link] licensed.
 
 
-
 <!-- ============== AUTHOR ============== -->
 ## Autor
 
 [<img alt="RuanMiniguite" src="https://github.com/RuanMiniguite.png?size=330" width="115"><br><sub>@RuanMiniguite</sub>](https://github.com/RuanMiniguite)
 
 <p align="right">(<a href="#home">back to top</a>)</p>
-
 
 
 
