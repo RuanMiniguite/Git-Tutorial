@@ -41,7 +41,7 @@ git remote add origin <URL-repositório>
 <br>
 
 ## Alterar a branch de Master para Main
-###### *O novo padrão para o github é MAIN para branch padrão e não MASTER.
+###### *O novo padrão para o github é MAIN para branch padrão e não MASTER.*
 ```bash
 git branch -M main
 ```
