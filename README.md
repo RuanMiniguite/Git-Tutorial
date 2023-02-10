@@ -48,7 +48,7 @@ This project is [MIT][GitHub License-link] licensed.
 
 
 <!-- Alterar link -->
-[GitHub License-link]: https://github.com/RuanMiniguite/RuanMiniguite.github.io/blob/0acdf779aab2f3aa6eb4c4ce2a227ee6b920ee22/LICENSE
+[GitHub License-link]: https://github.com/RuanMiniguite/Git-Tutorial/blob/802696a85908c76c9046eae326526820323a25b3/LICENSE
 
 <!-- Alterar caminho para repositorio [Template-Readme] -->
 [GitHub forks-shields]: https://img.shields.io/github/forks/RuanMiniguite/Git-Tutorial?style=for-the-badge&color=292929
