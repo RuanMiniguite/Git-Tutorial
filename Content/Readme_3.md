@@ -68,6 +68,13 @@ git log <SHA>
 git show <SHA>
 ```
 
+
+## Histórico de todas as branch
+```bash
+git log --oneline --decorate --graph --all
+```
+
+
 <br>
 
 <p align="right">(<a href="https://github.com/RuanMiniguite/Git-Tutorial">back to Home</a>)</p>
