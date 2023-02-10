@@ -1,130 +1,54 @@
 <div align="center">
 
-# Git-Tutorial
-###### Guia Básico, comandos mais utilizados 
+  ![GT](https://user-images.githubusercontent.com/82480542/217996953-b1d73f9c-5dda-4645-a264-42d99180b6e6.png)
+  
+  [![App](https://img.shields.io/badge/Book-GIT%20PRO-292929?style=for-the-badge&logo=BookStack&logoColor=white)](http://git-scm.com/book/pt-br/v2)
+  ![GitHub stars][GitHub stars-shields]
+  [![GitHub License][GitHub License-shields]][GitHub License-link]
+  [![Website][Website-shields]][Website-link]
+  
 
 </div>
 
 ---
 
-<div align="center">
+## Guia
 
-### Configuração Inicial
-
-</div>
-
-**Instalação Git** 
-
-###### Windons
-```bash
-https://git-scm.com/download/win
-```
-
-###### macOS
-```bash
-https://git-scm.com/download/mac
-```
-###### Linux
-```bash
-https://git-scm.com/download/linux
-```
-
-<br>
-
-**Configurar Nome e Email do usuário**
-```bash
-git config --global user.name nome-sobrenome
-git config --global user.email email@email.com.br
-```
-
-<br>
-<div align="center">
-
-### Criar um novo repositório
-
-</div>
-
-**Crie uma nova pasta, execute o comando**
-```bash
-git init
-```
-
-**Link entre o repositório remoto e o local**
-```bash
-git remote add origin <link-repositório>
-```
-
-**Alterar a branch de Master para Main**
-```bash
-git branch -M main
-```
-
-**Clonar repositório, já criado remotamente**
-```bash
-git clone <link-repositorio>
-```
-
-<br>
-<div align="center">
-
-### Comando básicos
-
-</div>
-
-**Adicionar todos os arquivos para serem commitados**
-```bash
-git add .
-```
-
-**Commitando os arquivos**
-```bash
-git commit -m "Mensagem do commit".
-
-```
-***Sugestão de [EMOJIS PARA MENSAGEM](https://github.com/RuanMiniguite/Commit-Message)***
+- [Instalação/Configuração](Content/Readme_1.md)
+- [Criar um repositório](Content/Readme_2.md)
+- [Histórico](Content/Readme_3.md)
+- [Adicionar Commit](Content/Readme_4.md)
+- [Tagging/Branching/Merging](Content/Readme_5.md)
+- [Desfazer alterações](Content/Readme_6.md)
 
 
-**Enviar alteração para repositório remoto**
-```bash
-git push origin <branch>
-```
 
-**Puxar alteração do repositório remoto**
-```bash
-git pull origin <branch>
-```
+<!-- ============== LICENSE ============== -->
+## License
 
-**Status do repositório**
-```bash
-git status
-```
-
-**Log dos commits**
-```bash
-git log // todos os commits
-git log --oneline // exibe log com hash e título do commit
-```
-
-**Editar ultimo commits**
-```bash
-git commit --amend
-```
-
-**Editar commits antigos**
-```bash
-git rebase -i HEAD~3
-```
-<h5>Mostra a lista dos 3 últimos commit antes do push</h5>
+Copyright © 2023 [Ruan Miniguite](https://github.com/RuanMiniguite).<br />
+This project is [MIT][GitHub License-link] licensed.
 
 
-<br>
 
----
+<!-- ============== AUTHOR ============== -->
+## Autor
 
-**Livro Pro Git**
+[<img alt="RuanMiniguite" src="https://github.com/RuanMiniguite.png?size=330" width="115"><br><sub>@RuanMiniguite</sub>](https://github.com/RuanMiniguite)
 
-Escrito por Scott Chacon e Ben Straub e publicado pela Apress
+<p align="right">(<a href="README.md">back to top</a>)</p>
 
-```bash
-http://git-scm.com/book/pt-br/v2
-```
+
+
+
+<!-- Alterar link -->
+[GitHub License-link]: https://github.com/RuanMiniguite/RuanMiniguite.github.io/blob/0acdf779aab2f3aa6eb4c4ce2a227ee6b920ee22/LICENSE
+
+<!-- Alterar caminho para repositorio [Template-Readme] -->
+[GitHub forks-shields]: https://img.shields.io/github/forks/RuanMiniguite/Git-Tutorial?style=for-the-badge&color=292929
+[GitHub stars-shields]: https://img.shields.io/github/stars/RuanMiniguite/Git-Tutorial?style=for-the-badge&color=292929
+
+<!-- Permalink Shields-->
+[GitHub License-shields]: https://img.shields.io/cocoapods/l/m?down_color=292929&up_color=292929&color=292929&style=for-the-badge
+[Website-link]: https://github.com/RuanMiniguite/Commit-Message
+[Website-shields]: https://img.shields.io/website?down_color=292929&down_message=404&style=for-the-badge&logo=github&up_color=292929&up_message=Commit&url=https%3A%2F%2Fgithub.com%2FRuanMiniguite%2FCommit-Message
