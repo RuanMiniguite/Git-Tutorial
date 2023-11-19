@@ -47,6 +47,19 @@ git commit --amend
 
 <br>
 
+## Alterar mensagens de um ou mais commits
+###### Verifique o <a href="">editor global</a>
+```bash
+git rebase -i HEAD~3
+```
+###### *Substitua pick por reword antes de cada mensagem, de commit que deseja alterar e salve o arquivo.*
+###### *Substitua a mensgem antiga pela nova em cada arquivo e salve.*
+```bash
+git push --force 
+```
+
+<br>
+
 ## Desfazer merger
 ```bash
 git reset --hard HEAD^
