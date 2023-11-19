@@ -48,7 +48,7 @@ git commit --amend
 <br>
 
 ## Alterar mensagens de um ou mais commits
-###### Verifique o <a href="">editor global</a>
+###### Verifique o <a href="https://github.com/RuanMiniguite/Git-Tutorial/blob/main/Content/Readme_1.md">editor global</a>
 ```bash
 git rebase -i HEAD~3
 ```
